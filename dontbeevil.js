@@ -1,0 +1,1 @@
+alert("u sure you want to use this google site? ...u know they're tracking u!");
