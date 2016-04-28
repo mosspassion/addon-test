@@ -24,6 +24,22 @@
 			"matches": ["*://*.google.com/*"],
 			"js": ["dontbeevil.js"]
 		}
+	],
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/icon-48.png",
+		"default_title": "upit",
+		"default_popup": "upit.html"
+	},
+
+	"web_accessible_resources": [
+		"beasts/frog.jpg",
+		"beasts/turtle.jpg",
+		"beasts/snake.jpg"
 	]
 
 }
